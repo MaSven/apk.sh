@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 # apk.sh v0.9.9
 # author: ax - github.com/ax
@@ -8,6 +8,9 @@
 # https://github.com/sensepost/objection/
 # https://github.com/NickstaDB/patch-apk
 #
+
+
+set -euo pipefail
 
 VERSION="0.9.9"
 echo -e "[*] \033[1mapk.sh v$VERSION \033[0m"
