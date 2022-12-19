@@ -2,8 +2,9 @@ name: Differential ShellCheck
 on:
   pull_request:
     branches: [main]
-  commits:
-    branches: [main]
+  push:
+    branches:
+      - "main"
 
 permissions:
   contents: read
